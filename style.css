@@ -1,17 +1,17 @@
-.header{
+.header_oone{
     /* width: 100%; */
     display: flex;
 }
 .header__link{
     display: flex;
 }
-.header .headerr__img img{
+.header_oone .headerr__img img{
     margin-left: 113px;
     margin-top: 33px;
     width: 122px ;
     height: 63px;
 }
-.header .header__link .header__link_one{
+.header_oone .header__link .header__link_one{
     margin-top: 50px;
     margin-left: 530px;
     gap: 40px;
@@ -51,9 +51,9 @@
     position: absolute;
     left: 905px;
     top: 182px;
-}
+}  
 @media (max-width: 447px){
-    .header{
+    .header_oone{
         width: 99%;
         
         
@@ -61,19 +61,23 @@
         
 
     }
-    .headerr__img img{
+     .header_oone .headerr__img img{
         margin-left: 10px;
         margin-top: 10px;
         width: 60px ;
         height: 30px;
     }
-    .header__link_one{
-        margin-left: 30px;
+      .header__oone .header__link .header__link_one{
         
+        width: 200px;
+        
+         
         
     }
     .header__link{
-        margin-left: 30px;
+        margin-top: -50px;
+        margin-left:-450px;
+        width: 300px;
        
     }
     .header__link_one li a{
@@ -82,17 +86,12 @@
     }
     .header__link_logo img{
         
-    }
-    .nav .nav__bg{
-        
-        
-    }
-    nav{
-        width: 99%;
-    }
     
-
+    
 }
+
+  
+
 @media (min-width: 447.1px) and (max-width:769px){
     .header{
         width: 99%;
@@ -112,9 +111,60 @@
     }
 
 }
-@media (max-width:1200.1px){
+@media (min-width:1200.1px){
     .header{
-        width: 99%;
+        /* width: 100%; */
+        display: flex;
+    }
+    .header__link{
+        display: flex;
+    }
+    .header .headerr__img img{
+        margin-left: 113px;
+        margin-top: 33px;
+        width: 122px ;
+        height: 63px;
+    }
+    .header .header__link .header__link_one{
+        margin-top: 50px;
+        margin-left: 530px;
+        gap: 40px;
+        display: flex;
+        list-style: none;
+    }
+    .header__link_one a{
+        text-decoration: none;
+        color: #B08EAD;
+        font-size: 24px;
+    }
+    .header__link_logo{
+        cursor: pointer;
+        margin-top: 57px;
+        margin-left: 40px;
+        width: 22px;
+       height: 20px;
+    }
+    .nav{
+        position: relative;
+    }
+    .nav .nav__bg{
+        width: 100%;
+        background-color: #C9ADC6;
+        height: 458px;
+    }
+    .nav .nav__bg_two{
+        width: 100%;
+        background-color:#D6BBD3 ;
+        height: 359px;
+    }
+    .nav__bg__img img{
+        margin-top: 90px;
+        margin-left: 178px;
+    }
+    .nav__bg__img_two{
+        position: absolute;
+        left: 905px;
+        top: 182px;
     }
 
 }
