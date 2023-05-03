@@ -194,7 +194,7 @@
 }
 .header__section_seven{
     width: 100%;
-    height: 568px;
+    height: 670px;
     background-color: #CEB3CB;
     margin-top: 130px;
     display: flex;
@@ -213,21 +213,21 @@
     color: #FFFFFF;
 }
 form{
-    width: 600px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 70px;
     margin-left: 329px;
 }
-.form p{
+/* form p{
     margin-left: 96px ;
     margin-top: 315px;
     font-size: 17px;
     color: #ffffff;
-}
+} */
 form input{
-    margin-top: -150px;
+    
     width: 288px;
     height: 50px;
     border: 1px solid white;
@@ -238,4 +238,37 @@ form input{
 .textarea{
     width: 600px ;
     height: 103px;
+}
+.form_two{
+    gap: 50px;
+    height: 150px;
+    margin-bottom: -270px;
+
+}
+.header__section__eight_paragrif_{
+    font-size: 14px;
+    color: #B99BB6;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+.header__section__eight_h1{
+    font-size: 24px;
+    color:#5F4D5D ;
+    margin-left: 620px ;
+}
+.header__section_eight input{
+    background-color: white;
+    width: 230px;
+    height: 40px;
+    border: 1px solid #5F4D5D ;
+}
+.header__section_eight  button{
+    width: 220px ;
+    height: 60px ;
+    cursor: pointer;
+    background-color: #CEB3CB ;
+    color: #FFFFFF ;
+    border: none;
+    border-bottom-right-radius: 3px ;
+    border-top-right-radius: 3px ;
 }
