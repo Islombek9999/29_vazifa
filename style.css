@@ -272,3 +272,29 @@ form input{
     border-bottom-right-radius: 3px ;
     border-top-right-radius: 3px ;
 }
+.header__section_nine{
+    position: relative;
+    margin-top: 110px;
+    width: 100%;
+    height: 280px;
+    background-color: #D6BBD3;
+    fill: solid #D6BBD3;
+    
+    
+}
+.header__section_nine_b0x{
+    position: absolute;
+    top: 50px ;
+    left: 330px ;
+    display: flex;
+    gap: 300px;
+
+}
+.header__section_nine__boxes h3{
+    color: white;
+    font-size: ;
+    
+}
+.header__section_nine__boxes  img{
+    margin-left: 10px;
+}
