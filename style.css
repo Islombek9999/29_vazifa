@@ -2,6 +2,9 @@
     width: 100%;
     display: flex;
 }
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 .header__link{
     display: flex;
 }
